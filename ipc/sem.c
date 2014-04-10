@@ -40,7 +40,8 @@ int main (int argc, char **argv)
       exit (1);
     }
 
-  key = ftok (".", '2');
+  // key = ftok (".", '2');
+  key = 1;
 
   switch (tolower (argv[1][0]))
     {
